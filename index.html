@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>俄罗斯方块游戏</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>俄罗斯方块游戏</h1>
+        <canvas id="tetris" width="300" height="600"></canvas>
+        <div class="controls">
+            <button id="startButton">开始游戏</button>
+            <button id="pauseButton">暂停游戏</button>
+            <button id="resetButton">重置游戏</button>
+            <div>得分: <span id="score">0</span></div>
+            <div>最高得分: <span id="highScore">0</span></div>
+            <div>时间: <span id="timer">0</span>秒</div>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
