@@ -1,1 +1,4 @@
-
+操作系统：Linux, macOS, Windows
+架构：x86, x86_64, ARM (可能支持更多)
+编译器：GCC, Clang, MSVC (或其他支持 C++11 的编译器)
+图形库：SDL2 (或其他支持的图形库)
